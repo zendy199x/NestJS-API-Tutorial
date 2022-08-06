@@ -43,6 +43,23 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# start docker
+$ docker-compose up dev-db -d
+$ docker ps
+$ docker logs (log)
+
+# prisma help
+$ npx prisma --help
+
+# prisma migration
+$ npx prisma migrate dev
+
+# prisma generate
+$ npx prisma generate
+
+# prisma browser your data
+$ npx prisma studio
 ```
 
 ## Test
