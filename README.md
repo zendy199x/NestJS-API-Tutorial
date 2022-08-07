@@ -45,7 +45,7 @@ $ npm run start:dev
 $ npm run start:prod
 
 # start docker
-$ docker-compose up dev-db -d
+$ docker compose up dev-db -d
 $ docker ps
 $ docker logs (log)
 
