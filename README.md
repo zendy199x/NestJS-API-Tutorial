@@ -29,20 +29,21 @@
 ## Installation
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn start:dev
+$ yarn db:dev:restart
 
 # production mode
-$ npm run start:prod
+$ yarn start:prod
 
 # start docker
 $ docker compose up dev-db -d
@@ -66,13 +67,13 @@ $ npx prisma studio
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn test:cov
 ```
 
 ## Support
