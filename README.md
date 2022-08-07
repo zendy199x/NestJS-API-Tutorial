@@ -24,12 +24,29 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) REST API tutorial for Zendy199x.
 
 ## Installation
 
 ```bash
 $ yarn
+```
+
+## Run the API in development mode
+
+```javascript
+yarn // install
+yarn db:dev:restart // start postgres in docker and push migrations
+yarn start:dev // start api in dev mode
+```
+
+## Testing e2e
+
+```javascript
+yarn // install
+yarn db:test:restart // start postgres in docker and push migrations
+yarn start:test // start api in test mode
+yarn test:e2e // start testing in test mode
 ```
 
 ## Running the app
